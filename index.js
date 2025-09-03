@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.send('Welcome to the information distribution system!');
+    res.send('Welcome to the Info Distribution System.');
 });
 
 app.listen(PORT, () => {
