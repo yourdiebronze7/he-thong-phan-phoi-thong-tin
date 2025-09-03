@@ -1,0 +1,13 @@
+{
+  "name": "he-thong-phan-phoi-thong-tin",
+  "version": "1.0.0",
+  "description": "Hệ thống phân phối thông tin phi tập trung",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  }
+}
