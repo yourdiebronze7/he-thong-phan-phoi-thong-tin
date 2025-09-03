@@ -9,7 +9,7 @@ exports.getUserInfo = async (req, res) => {
         }
         res.json(user);
     } catch (error) {
-        console.error(`Error fetching user info for ID ${req.params.id}:`, error);
+        console.error(`Error fetching user info for user ID ${userId}:`, error);
         res.status(500).json({ message: 'Internal server error', error: error.message });
     }
 };
