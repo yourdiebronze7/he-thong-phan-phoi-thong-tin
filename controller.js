@@ -9,6 +9,6 @@ exports.getUserInfo = async (req, res) => {
         }
         res.json(user);
     } catch (error) {
-        res.status(500).send(error);
+        res.status(500).json({ message: 'Internal server error', error: error.message });
     }
 };
